@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="27293f7f4c9848518b2cd4dd7b741fcf" Name="Diagram1" ZoomLevel="81" ShowGrid="true" SnapToGrid="false">
+        <EntityTypeShape EntityType="INVYBALModel.ROLES" Width="1.5" PointX="13.66666689328849" PointY="1.7083333339542151" />
+        <EntityTypeShape EntityType="INVYBALModel.ABASTECIMIENTO" Width="1.5" PointX="7.625" PointY="0.75" />
+        <EntityTypeShape EntityType="INVYBALModel.INVENTARIO" Width="3.75" PointX="1.625" PointY="4" />
+        <EntityTypeShape EntityType="INVYBALModel.MEDICION" Width="1.5" PointX="0.5" PointY="1.125" />
+        <AssociationConnector Association="INVYBALModel.INSUMO" />
+        <AssociationConnector Association="INVYBALModel.medida" />
+        <EntityTypeShape EntityType="INVYBALModel.CLIENTE" Width="1.5" PointX="3.75" PointY="0.75" />
+        <EntityTypeShape EntityType="INVYBALModel.BALANCE" Width="1.5" PointX="13.246795233890165" PointY="7.6987179101571526" />
+        <EntityTypeShape EntityType="INVYBALModel.FACTABA" Width="1.5" PointX="7.8750004999999987" PointY="15.576904296874996" />
+        <EntityTypeShape EntityType="INVYBALModel.INSUMOABA" Width="1.5" PointX="10.125000499999999" PointY="3.7692057291666661" />
+        <AssociationConnector Association="INVYBALModel.FK_INSUMOABAS_FACTABAS" />
+        <AssociationConnector Association="INVYBALModel.FK_INSUMOABAS_INVENTARIO" />
+        <EntityTypeShape EntityType="INVYBALModel.EMPLEADO" Width="1.5" PointX="3.7500004999999996" PointY="18.162182617187497" />
+        <EntityTypeShape EntityType="INVYBALModel.PRODUCTO" Width="1.5" PointX="6.1250009999999993" PointY="6.1731363932291661" />
+        <AssociationConnector Association="INVYBALModel.t1" />
+        <AssociationConnector Association="INVYBALModel.t2" />
+        <AssociationConnector Association="INVYBALModel.t3" />
+        <AssociationConnector Association="INVYBALModel.t4" />
+        <AssociationConnector Association="INVYBALModel.t5" />
+        <AssociationConnector Association="INVYBALModel.t6" />
+        <AssociationConnector Association="INVYBALModel.t7" />
+        <EntityTypeShape EntityType="INVYBALModel.CATEGORIAS" Width="1.5" PointX="0.75" PointY="8.9047841796875" />
+        <AssociationConnector Association="INVYBALModel.FK_PRODUCTO_CATEGORIAS" />
+        <EntityTypeShape EntityType="INVYBALModel.N_FACTURA" Width="1.5" PointX="15.041666837838987" PointY="7.6858976903046479" />
+        <EntityTypeShape EntityType="INVYBALModel.DEUDA" Width="1.5" PointX="3.375" PointY="8.75" />
+        <EntityTypeShape EntityType="INVYBALModel.USUARIO" Width="1.5" PointX="15.875" PointY="1.5576985677083339" />
+        <AssociationConnector Association="INVYBALModel.FK_USUARIO_ROLES" />
+        <EntityTypeShape EntityType="INVYBALModel.User" Width="1.5" PointX="10.375" PointY="0.75" />
+        <EntityTypeShape EntityType="INVYBALModel.OPCIONE" Width="1.5" PointX="8.375" PointY="8.1441650390625" />
+        <AssociationConnector Association="INVYBALModel.FK_OPCIONES_PRODUCTO" />
+        <AssociationConnector Association="INVYBALModel.productoFK" />
+        <EntityTypeShape EntityType="INVYBALModel.FACTURA" Width="1.5" PointX="8.3750005" PointY="19.278808593749996" />
+        <EntityTypeShape EntityType="INVYBALModel.ITEMVENTA" Width="1.5" PointX="10.6250005" PointY="7.7595621744791643" />
+        <AssociationConnector Association="INVYBALModel.FK_FACTURA_CLIENTE" />
+        <AssociationConnector Association="INVYBALModel.FK_FACTURA_EMPLEADO" />
+        <AssociationConnector Association="INVYBALModel.FK_ITEMVENTA_ITEMVENTA" />
+        <AssociationConnector Association="INVYBALModel.FK_ITEMVENTA_OPCIONES" />
+        <AssociationConnector Association="INVYBALModel.FK_ITEMVENTA_PRODUCTO" />
+        <EntityTypeShape EntityType="INVYBALModel.DIARIOVENTA" Width="1.5" PointX="8.375" PointY="25.144165039062496" />
+        <AssociationConnector Association="INVYBALModel.FK_DIARIOVENTAS_PRODUCTO" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
