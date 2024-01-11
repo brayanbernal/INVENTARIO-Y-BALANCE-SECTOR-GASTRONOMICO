@@ -1,0 +1,23 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.login,
+.image {
+	
+	min-height: 0vh; 
+}
+
+.bg-image {
+	background-image: url('../icon/pizzader.png');
+	background-size: cover;
+	background-position: center center;
+}
+.bg-light {
+	background-image: url('../icon/fondo2.png');
+	background-size: cover;
+	background-position: center center;
+}
